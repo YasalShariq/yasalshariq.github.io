@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Yasal Shariq Siddiqui</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -77,6 +77,7 @@
             color: var(--accent);
             text-transform: uppercase;
             letter-spacing: -0.05em;
+            text-decoration: none;
         }
 
         nav ul {
@@ -313,7 +314,32 @@
             color: var(--accent);
         }
 
+        /* Education styles */
+        .edu-university {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .edu-degree {
+            font-size: 0.9rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+
         /* Skills */
+        .subsection-title {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 3rem;
+            margin-bottom: 1.25rem;
+            letter-spacing: -0.02em;
+        }
+
         .skills-container {
             display: flex;
             flex-wrap: wrap;
@@ -530,9 +556,9 @@
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <div class="logo">Portfolio</div>
+            <a href="#home" class="logo">Yasal Shariq Siddiqui</a>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#cv">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -544,10 +570,10 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>
-                Your Name
-                <span>Developer</span>
+                Yasal Shariq Siddiqui
+                <span>Data Analyst</span>
             </h1>
-            <p class="subtitle">Building digital experiences that make a difference</p>
+            <p class="subtitle">Self-starter with strong analytical skills and hands-on experience in data analysis, statistical methods, and visualization tools</p>
             <div class="cta-buttons">
                 <a href="#projects" class="btn">View Projects</a>
                 <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -555,61 +581,128 @@
         </div>
     </section>
 
-    <!-- CV Section -->
-    <section id="cv" class="reveal">
+    <!-- Education Section -->
+    <section id="education" class="reveal">
         <div class="section-header">
-            <div class="section-number">01</div>
-            <h2 class="section-title">Experience & Skills</h2>
+            <h2 class="section-title">Education</h2>
         </div>
 
         <div class="cv-grid">
             <div class="cv-card">
-                <h3>Education</h3>
-                <div class="period">2020 - 2024</div>
+                <div class="period">2022 – 2023</div>
+                <div class="edu-university">University of Windsor, Canada</div>
+                <div class="edu-degree">Masters of Management – Business Data Analytics</div>
+            </div>
+
+            <div class="cv-card">
+                <div class="period">2016 – 2020</div>
+                <div class="edu-university">Institute of Business Administration, Karachi</div>
+                <div class="edu-degree">BSc Economics and Mathematics</div>
+                <ul style="margin-top:0.75rem;">
+                    <li>Used Eviews & SPSS for Final Year Economics Project</li>
+                    <li>Used R-Studio for regression analysis</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="reveal">
+        <div class="section-header">
+            <h2 class="section-title">Experience</h2>
+        </div>
+
+        <div class="cv-grid">
+            <div class="cv-card">
+                <h3>EY – Data Analyst Intern</h3>
+                <div class="period">Sep 2025 – Dec 2025 · Assurance (MENA)</div>
                 <ul>
-                    <li>University Name - Degree</li>
-                    <li>Relevant coursework and achievements</li>
-                    <li>GPA or honors if applicable</li>
+                    <li>ETL for large volumes of financial data using Alteryx, SQL and Excel</li>
+                    <li>Supported assurance team with data analytics on audit engagements</li>
+                    <li>Worked as virtual team member, maintaining communication with senior members</li>
+                    <li>Tools: Excel, Alteryx, PowerBI, SQL</li>
                 </ul>
             </div>
 
             <div class="cv-card">
-                <h3>Work Experience</h3>
-                <div class="period">2023 - Present</div>
+                <h3>Elixir Bags – Digital Marketing Associate</h3>
+                <div class="period">Jan 2024 – Present</div>
                 <ul>
-                    <li>Company Name - Position</li>
-                    <li>Key responsibilities and achievements</li>
-                    <li>Technologies and tools used</li>
+                    <li>Led end-to-end digital marketing campaigns across WhatsApp, social media and Facebook Ads</li>
+                    <li>Managed SEO, keyword research and A/B testing to boost search visibility</li>
+                    <li>Designed ads using Canva; executed targeted campaigns on Instagram & Facebook</li>
+                    <li>Tools: Google Analytics 4, Microsoft Clarity</li>
                 </ul>
             </div>
 
             <div class="cv-card">
-                <h3>Certifications</h3>
-                <div class="period">Various</div>
+                <h3>Royal Bank of Canada – Banking Advisor</h3>
+                <div class="period">Feb 2024 – Jan 2025</div>
                 <ul>
-                    <li>Certification Name - Issuing Organization</li>
-                    <li>Relevant training and courses</li>
-                    <li>Professional development</li>
+                    <li>Resolved 500+ monthly inquiries, improving resolution accuracy by 25%</li>
+                    <li>Used CRM data to track behavior trends, reducing recurring inquiries by 15%</li>
+                    <li>Validated data for 150+ account openings, ensuring compliance</li>
+                    <li>Drove cross-selling resulting in 75 credit cards and 60 loans</li>
+                </ul>
+            </div>
+
+            <div class="cv-card">
+                <h3>HUB International – Data Analyst Intern</h3>
+                <div class="period">May 2023 – Aug 2023</div>
+                <ul>
+                    <li>Analyzed 50,000+ insurance transactions using SQL and Python to identify CLV patterns</li>
+                    <li>Tested 3 ML algorithms in Python to predict Customer Lifetime Value</li>
+                    <li>Mapped and standardized 25+ data fields with ETL and Data Governance practices</li>
+                    <li>Tools: Python, R-Studio, PowerBI</li>
+                </ul>
+            </div>
+
+            <div class="cv-card">
+                <h3>Habib Bank Limited – Asst. Manager, Internal Audit</h3>
+                <div class="period">Sep 2021 – Feb 2022</div>
+                <ul>
+                    <li>Reduced errors in financial reports by 10% via SQL-based data validation and cleaning</li>
+                    <li>Built interactive Power BI dashboards for monitoring key performance indicators</li>
+                    <li>Tools: Excel, Power BI</li>
+                </ul>
+            </div>
+
+            <div class="cv-card">
+                <h3>State Bank of Pakistan – Intern</h3>
+                <div class="period">Spring 2019 · Domestic Market & Monetary Management</div>
+                <ul>
+                    <li>Developed a new framework for evaluating market liquidity, improving accuracy by 25%</li>
+                    <li>Reduced data entry errors by 30% through new data verification and ETL practices</li>
+                    <li>Identified 10 key economic indicators, aiding a 30% improvement in market forecasts</li>
                 </ul>
             </div>
         </div>
 
+        <h3 class="subsection-title">Skills</h3>
         <div class="skills-container">
-            <div class="skill-tag">JavaScript</div>
             <div class="skill-tag">Python</div>
-            <div class="skill-tag">React</div>
-            <div class="skill-tag">Node.js</div>
-            <div class="skill-tag">HTML/CSS</div>
-            <div class="skill-tag">Git</div>
+            <div class="skill-tag">R Programming</div>
             <div class="skill-tag">SQL</div>
-            <div class="skill-tag">TypeScript</div>
+            <div class="skill-tag">PowerBI</div>
+            <div class="skill-tag">Alteryx</div>
+            <div class="skill-tag">Excel / VBA</div>
+            <div class="skill-tag">Machine Learning</div>
+            <div class="skill-tag">Data Analysis</div>
+            <div class="skill-tag">Statistical Analysis</div>
+            <div class="skill-tag">Data Mining</div>
+            <div class="skill-tag">Predictive Modeling</div>
+            <div class="skill-tag">Time Series Analysis</div>
+            <div class="skill-tag">A/B Testing</div>
+            <div class="skill-tag">ETL</div>
+            <div class="skill-tag">Google Analytics 4</div>
+            <div class="skill-tag">SPSS</div>
+            <div class="skill-tag">Stata</div>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="reveal">
         <div class="section-header">
-            <div class="section-number">02</div>
             <h2 class="section-title">Featured Projects</h2>
         </div>
 
@@ -673,24 +766,17 @@
     <!-- Contact Section -->
     <section id="contact" class="reveal">
         <div class="section-header">
-            <div class="section-number">03</div>
             <h2 class="section-title">Get In Touch</h2>
         </div>
 
         <div class="contact-content">
             <p>I'm always open to discussing new projects, opportunities, or collaborations.</p>
             <div class="contact-links">
-                <a href="mailto:your.email@example.com" class="contact-link">
+                <a href="mailto:yasalshariq47@gmail.com" class="contact-link">
                     📧 Email
                 </a>
-                <a href="https://github.com/yourusername" class="contact-link" target="_blank">
-                    💻 GitHub
-                </a>
-                <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank">
+                <a href="https://linkedin.com/in/yasalshariq" class="contact-link" target="_blank">
                     💼 LinkedIn
-                </a>
-                <a href="https://twitter.com/yourhandle" class="contact-link" target="_blank">
-                    🐦 Twitter
                 </a>
             </div>
         </div>
@@ -698,7 +784,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Your Name. Built with passion and code.</p>
+        <p>&copy; 2025 Yasal Shariq Siddiqui. Built with passion and code.</p>
     </footer>
 
     <script>
