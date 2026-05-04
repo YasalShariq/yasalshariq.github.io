@@ -375,6 +375,10 @@
             overflow: hidden;
             transition: all 0.3s ease;
             position: relative;
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
         }
 
         .project-card::after {
@@ -387,6 +391,7 @@
             background: linear-gradient(135deg, var(--accent) 0%, transparent 100%);
             opacity: 0.05;
             transition: height 0.3s ease;
+            pointer-events: none;
         }
 
         .project-card:hover {
@@ -454,6 +459,8 @@
             align-items: center;
             gap: 0.5rem;
             transition: transform 0.3s ease;
+            position: relative;
+            z-index: 1;
         }
 
         .project-link:hover {
@@ -708,7 +715,7 @@
 
         <div class="projects-grid">
             <!-- Project Card 1 - Power BI Analysis -->
-            <div class="project-card">
+            <a href="https://github.com/YasalShariq/yasalshariq.github.io/tree/main/projects/powerbi-sales-analysis" target="_blank" class="project-card">
                 <div class="project-image">📊</div>
                 <div class="project-content">
                     <h3>Sales Analysis Dashboard</h3>
@@ -720,10 +727,10 @@
                         <span class="project-tag">ETL</span>
                     </div>
                     <div class="project-links">
-                        <a href="projects/powerbi-sales-analysis/analysis.pbix" download class="project-link">Download .pbix →</a>
+                        <span class="project-link">View Files on GitHub →</span>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <!-- Project Card 2 -->
             <div class="project-card">
@@ -770,7 +777,7 @@
         </div>
 
         <div class="contact-content">
-            <p>I'm always open to discussing new projects, opportunities, or collaborations.</p>
+            <p>I am always open to discussing new projects, opportunities, or collaborations.</p>
             <div class="contact-links">
                 <a href="mailto:yasalshariq47@gmail.com" class="contact-link">
                     📧 Email
