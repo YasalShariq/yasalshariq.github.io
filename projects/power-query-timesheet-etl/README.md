@@ -102,16 +102,6 @@ Once the data is in a flat table format, you can:
 
 ---
 
-## Data Source
-
-Timesheet files are imported directly from GitHub via their raw URLs:
-
-```
-https://raw.githubusercontent.com/YasalShariq/yasalshariq.github.io/main/projects/power-query-analysis/2015-03-14.txt
-```
-
----
-
 ## Requirements
 
 - Microsoft Excel 2016 or later (Power Query is built in)
