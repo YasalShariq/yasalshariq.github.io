@@ -89,7 +89,7 @@ Once the data is in a flat table format, you can:
 - **Feed the data into Power BI**, Tableau, or any other BI tool
 - **Add new months** to the source and refresh the query in one click
 
-The *Recreated using Pivot Tables* sheet demonstrates this by rebuilding the original report layout from the flat table in seconds.
+The **Recreated using Pivot Tables** sheet demonstrates this by rebuilding the original report layout from the flat table in seconds.
 
 ---
 
