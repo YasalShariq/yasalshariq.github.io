@@ -5,7 +5,7 @@
 
 ## Overview
 
-Financial statements are designed for human readability — but that cross-tab layout with merged headers and grouped rows makes them nearly impossible to work with in pivot tables, charts, or any kind of dynamic analysis.
+Financial statements are designed for human readability but cross-tab layout with merged headers and grouped rows makes them nearly impossible to work with in pivot tables, charts, or any kind of dynamic analysis.
 
 This project demonstrates how to use **Excel Power Query** to unpivot a multi-month financial statement (tracking Revenues and Expenses across Actual, Budget, and Variance figures for April and May) into a clean, flat data table — turning a report *format* into a data *structure*.
 
